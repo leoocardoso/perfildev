@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#background-image {
+    background-image: url(background.jpg); /* Link da imagem para plano de fundo */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-size: cover; /* Ocupar todo espaço onde foi aplicada a imagem */
+    width: 100%; /* Ocupar 100% do width */
+    height: 100%; /* Ocupar 100% do height */
+}
+
+h1 {
+    color: white; /* Cor da fonte */
+    font-family: 'Secular One', sans-serif;; /* Estilo da fonte */
+    font-size: 30px; /* Tamanho da fonte */
+    padding-top: 40px; /* Distância da fonte para o topo da página */
+    padding-left: 1300px; /* Distância da fonte para o lado esquerdo da página */
+}
+
+h2 {
+    color: black; /* Cor da fonte */
+    font-family: 'Kurale', serif;/* Estilo da fonte */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px; /* Tamanho da fonte*/
+}
+
+form {
+    opacity: 85%; /* Opacidade do form */
+}
+
+fieldset {
+    background-color: white; /* Cor do plano de fundo do fieldset */
+    border-color: white; /* Cor da borda do fieldset */
+    border-style: solid; /* Estilo da borda do fieldset */
+    width: 600px; /* Largura da div */
+    height: 600px; /* Altura da div */
+    margin: 100px auto; /* Centralizar div */
+    border-radius: 8px; /* Arredondamento da borda do fieldset */
+}
+
+#divdesc {
+    text-align: center; /* Alinhar div e textarea dentro dela */
+}
+
+#descricao {
+    font-family: 'Kurale', serif;/* Estilo da fonte */
+    border-style: solid; /* Estilo da borda */
+    border-radius: 3px; /* Curvatura da borda */
+    margin-top: 35px; /* Distância do box para o elemento de cima */
+    width: 500px; /* Largura do box */
+    height: 350px; /* Altura do box */
+    padding-top: 6px; /* Distância do texto digitado para a borda de cima do box */ 
+    padding-left: 8px; /* Distância do texto digitado para a borda da esquerda do box */ 
+}
+
+::placeholder {
+    font-family: 'Kurale', serif;/* Estilo da fonte */
+    font-size: 13.5px; /* Tamanho da fonte do placeholder */
+}
+
+#seguir2 {
+    background-color: #022c3f; /* Cor do fundo do botão */
+    color: white; /* Cor da fonte do botão */
+    font-family: 'Kurale', serif; /* Estilo da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    border: 1px solid;
+    border-radius: 4px; /* Arredondamento da borda do botão */
+    width: 80px; /* Largura do botão */
+    height: 35px; /* Altura do botão */
+    margin-top: 35px; /* Distância do botão para o item de cima */
+    margin-left: 44px; /* Distância do botão para a borda esquerda do fieldset */
+}

@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#background-image {
+    background-image: url(background.jpg); /* Link da imagem para plano de fundo */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-size: cover; /* Ocupar todo espaço onde foi aplicada a imagem */
+    width: 100%; /* Ocupar 100% do width */
+    height: 100%; /* Ocupar 100% do height */
+}
+
+h1 {
+    color: white; /* Cor da fonte */
+    font-family: 'Secular One', sans-serif;; /* Estilo da fonte */
+    font-size: 30px; /* Tamanho da fonte */
+    padding-top: 40px; /* Distância da fonte para o topo da página */
+    padding-left: 1300px; /* Distância da fonte para o lado esquerdo da página */
+}
+
+h2 {
+    color: rgb(255, 255, 255); /* Cor da fonte */
+    font-family: 'Kurale', serif;/* Estilo da fonte */
+    text-align: center;
+    margin-top: 180px;
+    font-size: 40px; /* Tamanho da fonte*/
+}
+
+h3 {
+    color: rgb(255, 255, 255); /* Cor da fonte */
+    font-family: 'Kurale', serif;/* Estilo da fonte */
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px; /* Tamanho da fonte*/
+}
